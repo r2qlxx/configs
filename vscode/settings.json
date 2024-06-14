@@ -1,0 +1,26 @@
+{
+    "workbench.colorTheme": "Default Light Modern",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "workbench.tree.indent": 16,
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "editor.formatOnSave": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "emmet.syntaxProfiles": {
+        "jsx": {
+            "markup.attributes": {
+                "class*": "className",
+            },
+            "markup.valuePrefix": {
+                "class*": "styles"
+            }
+        }
+    },
+    "editor.wordWrap": "on"
+}
