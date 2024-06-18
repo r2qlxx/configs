@@ -22,5 +22,30 @@
             }
         }
     },
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "vsnotes.defaultNotePath": "c:\\Users\\admin\\workspace\\docs",
+    "vsnotes.tokens": [
+        {
+            "type": "datetime",
+            "token": "{dt}",
+            // "format": "YYYY-MM-DD_HH-mm",
+            "format": "YYYY-MM-DD",
+            "description": "Insert formatted datetime."
+        },
+        {
+            "type": "title",
+            "token": "{title}",
+            "description": "Insert note title from input box.",
+            "format": "Untitled"
+        },
+        {
+            "type": "extension",
+            "token": "{ext}",
+            "description": "Insert file vsnotes.",
+            "format": "md"
+        }
+    ],
+    "vsnotes.templates": [
+        "default"
+    ]
 }
